@@ -1,0 +1,22 @@
+.container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.container>.normal {
+    flex: 1 1 150px;
+}
+
+.container>.big {
+    flex: 1 1 250px;
+}
